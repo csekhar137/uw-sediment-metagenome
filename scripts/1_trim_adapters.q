@@ -3,7 +3,7 @@
 #PBS -q normal
 #PBS -l select=1:ncpus=24:mem=96G
 #PBS -l walltime=12:00:00
-#PBS -J 1-4
+#PBS -J INSERT RANGE OF JOBS
 #PBS -m abe 
 #PBS -M INSERT EMAIL HERE
 
