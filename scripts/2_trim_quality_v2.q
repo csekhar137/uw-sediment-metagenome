@@ -11,9 +11,9 @@
 PROJECT=INSERT PROJECT NAME HERE
 PATH=INSERT PATH TO BBTOOLS SCRIPTS
 
-# Adapter trimming
+# quality filtering
 # Set input and output directories
-INP=${SCRATCH}/datasets/${PROJECT}/data/raw/shotgun_reads
+INP=${SCRATCH}/datasets/${PROJECT}/data/processed/1_adapters_trimmed
 OUT=${SCRATCH}/datasets/${PROJECT}/data/processed/2_quality_trimmed
 
 # Loop through files and trim adapters
